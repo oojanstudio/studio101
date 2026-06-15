@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Studio FE: Refresh Upstream Lib",
+      "type": "shell",
+      "command": "code --reuse-window --command svelte.restartLanguageServer && code --reuse-window --command typescript.restartTsServer",
+      "problemMatcher": []
+    }
+  ]
+}
